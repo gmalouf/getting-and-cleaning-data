@@ -80,7 +80,7 @@ persistDataSet <- function(dataSet, outputDirectory) {
     dir.create(outputDirectory)
   } 
   
-  write.table(dataSet, file = "GettingAndCleaningDataCourseProject-TidyDataOutput", 
+  write.table(dataSet, file = "GettingAndCleaningDataCourseProject-TidyDataOutput.txt", 
               row.names = FALSE)
 }
 
