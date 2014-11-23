@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ----
 ## Getting and Cleaning Data - Course Project Submission
 
@@ -11,6 +10,14 @@ My solution to the [Getting and Cleaning Data](https://class.coursera.org/getdat
 * CodeBook.md - File that describes the output produced by run_analysis.R including an overview of the features from which the data set was derived from.
 * README.md - The file you are reading now
 
+----
+## Dependencies
+
+To run the analysis script, you must have installed:
+
+1. R version 3.1 (or later)
+2. plyr - available from CRAN
+3. reshape2 - available from CRAN
 
 ———-
 ## Run Analysis Walkthrough
@@ -35,8 +42,3 @@ For ease of implementation, the functionality in run_analysis.R takes the follow
 11. Finally, the data set is written as a table to a file named 'GettingAndCleaningDataCourseProject-TidyDataOutput' in the previously specified 'workDirectory'.
 
 
-
-=======
-getting-and-cleaning-data
-=========================
->>>>>>> 1065fd150dca7c6b7fe65f79aa4fc0dc1cf18564
