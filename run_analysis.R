@@ -5,7 +5,7 @@ library(reshape2)
 # and persist our new tidy data set.
 runAnalysis <- function(workDirectory = getwd()) {
   uciDirectory = uciDataSetDir(workDirectory)
-  pullSourceData(uciDirectory)
+  pullSourceData(uciDirectory, workDirectory)
   cbd = buildCombinedDataSet(uciDirectory) 
   fcdb = filterFeaturesForMeanStd(cbd)
   fcdb$Activity.Label = applyActivityDescriptiveNames(uciDirectory, fcdb)
@@ -15,7 +15,7 @@ runAnalysis <- function(workDirectory = getwd()) {
 
 # If HAR source data is unpacked, retrieve/download it (if necessary) and unzip 
 # in workDirectory.
-pullSourceData <- function(uciDirectory) {
+pullSourceData <- function(uciDirectory, workDirectory) {
   if(!file.exists(uciDirectory)) {
     harDataUrl = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
     harDataZipFile = paste(workDirectory, 'getdata_projectfiles_UCI HAR Dataset.zip', sep = '/')
