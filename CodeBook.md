@@ -9,9 +9,9 @@ This code book describes the decision-making process and variables used/produced
 The original 'source' data from which our tidy data set is derived can be found at [UCI HAR fixed DataSet](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 ———-
-## Format
+## Output Data Format
 
-The goal of this assignment was to produce a tidy data set that is easier to manipulate/work with than the source data.  Our tidy data set is output in what is referred to as a 'long' format.  Each row represents a single calculated average of observations for a unique combination of subject, activity and feature.
+The goal of this assignment was to produce a tidy data set that is easier to manipulate/work with than the source data.  Our tidy data set is output in what is referred to as a 'long' format.  Each row represents a single calculated average of observations for a unique combination of subject, activity and feature.  The columns include:
 
 1. Subject.ID - unique identifier for a test subject
 2. Activity.Label - Label describing the type of activity the subject took part in for a given observation
