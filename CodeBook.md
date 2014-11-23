@@ -16,7 +16,7 @@ The goal of this assignment was to produce a tidy data set that is easier to man
 1. Subject.ID - unique identifier for a test subject
 2. Activity.Label - Label describing the type of activity the subject took part in for a given observation
 3. Feature - The type of measurement performed
-4. Mean - The average of the value(s) produced for the unique subject, activity, feature combination
+4. Mean - The average of the value(s) from the source data set for the unique subject, activity, feature combination in each row.
 
 ———-
 ## Key Decisions
