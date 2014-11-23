@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ----
 ## Getting and Cleaning Data - Course Project Submission
 
@@ -35,3 +36,7 @@ For ease of implementation, the functionality in run_analysis.R takes the follow
 
 
 
+=======
+getting-and-cleaning-data
+=========================
+>>>>>>> 1065fd150dca7c6b7fe65f79aa4fc0dc1cf18564
